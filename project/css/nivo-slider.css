@@ -1,0 +1,92 @@
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: flexible
+Description: The default skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+*/
+
+.nivoSlider {
+	background:#fff url(images/nivo_slider/loading.gif) no-repeat 50% 50%;
+  position: relative;
+  width: 682px; height: 343px;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	right: 10px;
+	top: 10px;
+  margin-left:-40px; /* Tweak this to center bullets */
+  cursor: pointer;
+  z-index: 10;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/nivo_slider/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+  position: absolute; top:130px;
+	width:32px; height:32px;
+	background:url(images/nivo_slider/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+  cursor: pointer; z-index: 10;
+}
+a.nivo-nextNav {
+	background-position:-32px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+} 
+
+.nivo-caption {
+  position: absolute; bottom: 0; left: 0;
+  padding:8px 100px 8px 10px;
+  width: 572px; height: 44px;
+  text-align: justify; color:#fff; z-index: 15;
+}
+
+.nivo-html-caption { 
+  display: none; z-index: 15;
+}
+
+.nivo_link {
+  position: absolute; top:0px; left:600px; z-index: 999;
+  width: 90px; height: 60px;
+}
