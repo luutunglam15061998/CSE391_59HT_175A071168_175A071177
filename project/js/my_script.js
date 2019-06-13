@@ -24,7 +24,7 @@ $(document).ready(function() {
       $('html, body').animate({scrollTop: height}, 500);
     }
   );
-  $(window).scroll(function(){ //Ẩn hiện button
+  $(window).scroll(function(){ //áº¨n hiá»‡n button
     if($(window).scrollTop() <= height)
       $('#scrollTop').fadeOut("slow");
     else
